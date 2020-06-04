@@ -101,8 +101,8 @@ h1, h2, h3, h4, h5 ,h6{
 }
 
 #header #top-header ul li  a[href^=tel] {
-   text-decoration:#fff;
-   color: #fff;
+   text-decoration:inherit;
+   color: inherit;
 }
 
 
