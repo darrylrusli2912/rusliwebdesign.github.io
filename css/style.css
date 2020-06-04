@@ -617,7 +617,7 @@ form#viewForm input#btnView
 	height: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(204,51,0,1);
+	background-color: #CC3300;
 	color: #fff;
 	font-size: 1em;
 	border-radius: 25px;
