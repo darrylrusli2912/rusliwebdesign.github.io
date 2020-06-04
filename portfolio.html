@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<meta name="description" content="View the work that I've done">
+	<meta name="keywords" content="Web Devevlopment, Freelance, HTML5, CSS3, Javascript, PHP, and MySQL">
+	<meta name="author" content="Darryl Rusli">
+	<link rel="stylesheet" type="image/ico" href ="images/Rusli_Web_Design_logo_transparent_background.png">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	
+</head>
+<body>
+	
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/scrolldownLogo.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1200
+		});
+	</script>
+	<header id="header" class="clearfix">	
+		<div id="top-header"  class="clearfix">
+			<div class="wrapper">
+				<ul>
+					<li><i class="fas fa-envelope-square"></i> :darrylrusli2912@gmail.com</li>
+					<li><i class="fas fa-phone"></i> :(+61)415192009</li>
+				</ul>
+			</div>
+		</div>
+		<div id="bottom-header" class="clearfix">
+			<div class="wrapper">
+				<div class="bottom-header-content">
+					<a id="logoLink" href="home.html">
+						<img id="logo" src="images/Rusli_Web_Design_logo_transparent_background.png" alt="logo">
+					</a>
+					<div id="menu-bar">
+						<button id="menu-toggle"><i class="fas fa-bars"></i></button>
+					</div>
+					<nav id="menuDesktopNav">
+						<ul id="menuDesktopUl">
+							<li class="menuLi"><a class="menuA" href="index.html">Home</a></li>
+							<li class="menuLi"><a class="menuA" href="about.html">About</a></li>
+							<li class="menuLi"><a class="menuA current" href="portfolio.html">Portfolio</a></li>
+							<li class="menuLi"><a class="menuA" href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>				
+
+
+
+				<nav id="menuNav">
+					<ul id="menuUl">
+						<li class="menuLi"><a class="menuA" href="index.html">Home</a></li>
+						<li class="menuLi"><a class="menuA" href="about.html">About</a></li>
+						<li class="menuLi"><a class="menuA current" href="portfolio.html">Portfolio</a></li>
+						<li class="menuLi"><a class="menuA" href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+
+
+	<section id="portfolioContent">
+		<div id="portfolio-content-intro">		
+			<div class="content">
+				<div class="wrapper">
+					<h1 data-aos="fade-left">Works</h1>
+					<span class="line"></span>
+					<p data-aos="fade-right">Here the work that I've done. The works that I have done are the fictional company.</p>
+				</div>
+			</div>		
+		</div>
+
+		<div id="portfolio-display" class="clearfix" >
+			<div class="web-div clearfix" data-aos="fade-up">
+				<div class="web-screenshot float-left">
+					<img class="portfolioScreenShot" src="images/SunnyspotWebsiteWithFrame.png" alt="Sunnyspot">
+				</div>
+				<div class="float-right web-description">
+					<h2>Sunnyspot</h2>
+					<p>Central Coast based Inn</p>
+					<a href="sunnySpot.html">View Description</a>
+				</div>
+			</div>
+
+			<div class="web-div clearfix" data-aos="fade-up">
+				<div class="web-screenshot float-left">
+					<img class="portfolioScreenShot" src="images/SportsWarehouseWebsiteWithFrame.png" alt="Sunnyspot">
+				</div>
+				<div class="web-description float-right " >
+					<h2>Sports Warehouse</h2>
+					<p>Sports Retail</p>
+					<a href="sportswarehouse.html">View Description</a>
+				</div>
+			</div>
+
+			<div class="web-div clearfix"  data-aos="fade-up">
+				<div class="web-screenshot float-left">
+					<img class="portfolioScreenShot" src="images/WickedDrivingSchoolMobileDesktopView.png" alt="Sunnyspot">
+				</div>
+				<div class="web-description float-right">
+					<h2>Wicked Driving School</h2>
+					<p>Driving School</p>
+					<a href="wickedDrivingSchool.html">View Description</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+
+
+
+	<div id="discuss-project" class="clearfix" aria-label="Discuss About Your Project">
+		<div class="content">
+			<p>Interested to work with me?</p>
+			<form id="get-in-touch-form" action="contact.html">
+				<input id="get-in-touch-btn" type="submit" value="Get in touch with me" data-aos ="zoom-in">
+			</form>
+		</div>	
+	</div>
+
+	<footer id="footer">
+		<div class="wrapper">
+
+			<div id="socialMedia" aria-label="Social Media" data-aos ="zoom-in">
+				<h1>Connect with me!</h1>
+				<ul id="social-media-section">
+					<li class="social-media-circle dot">
+						<a class="socialMediaA" href="#"><i class="fab fa-facebook"></i></a>
+					</li>
+					<li class="social-media-circle dot" >
+						<a class="socialMediaA" href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li class="social-media-circle dot">
+						<a class="socialMediaA" href="#"><i class="fab fa-linkedin-in"></i></a>	
+					</li>
+				</ul>
+				
+				
+			</div>
+
+			
+
+			<div id="info">
+				<div id="infoSub">
+					<p class="infoP">&copy; 2020 Rusli Design</p>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
