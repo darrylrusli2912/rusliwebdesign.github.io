@@ -629,6 +629,7 @@ form#viewForm input#btnView
 	border: none;
 	transition: all 0.5s;
 	cursor: pointer;
+	-webkit-appearance: none;
 }
 
 form#viewForm input#btnView:hover {
@@ -1241,6 +1242,7 @@ label
 	    font-size: 2em;
 	    border-radius: 25px;
 	    border: 1px solid #fff;
+            -webkit-appearance: none;
 	}
 	/*---------------home page-------------*/
 	#promotion
