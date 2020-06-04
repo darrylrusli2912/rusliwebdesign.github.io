@@ -363,7 +363,10 @@ footer{
 }
 
 #discuss-project .content #get-in-touch-form #get-in-touch-btn{
-	/*width: 310px;*/
+	
+	 -webkit-appearance: none;
+	
+	
 	font-size: 1.2em;
 	border-radius: 25px;
 	border: 1px solid #fff;
@@ -371,7 +374,6 @@ footer{
 	color: #fff;
 	font-family: 'Domine';
 	transition: all 0.5s;
-	/*height: 100px;*/
 	word-wrap: break-word;
 	padding: 10px;
 }
@@ -1242,7 +1244,7 @@ label
 	    font-size: 2em;
 	    border-radius: 25px;
 	    border: 1px solid #fff;
-            -webkit-appearance: none;
+           
 	}
 	/*---------------home page-------------*/
 	#promotion
