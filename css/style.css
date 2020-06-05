@@ -803,7 +803,7 @@ div.overlay .popup .content p {
 	font-size: 1.5em;
 }
 
-form#view-description input.submit {
+form.view-description input.submit {
 	display: block;
 	margin: 20px auto;
 	background-color: #000;
