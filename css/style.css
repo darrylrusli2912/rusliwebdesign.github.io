@@ -816,7 +816,7 @@ form#view-description input.submit {
 	transition: background-color 0.5s;
 }
 
-form#view-description input#submit:hover {
+form#view-description input.submit:hover {
 	background-color: #CC3300;
 }
 
