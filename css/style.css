@@ -1036,9 +1036,6 @@ label
  	font-family: 'Roboto';
  	background-color: rgba(232, 232, 232, 1);
  	transition: all 0.5s;
- 	 &:focus {
-    outline: none;    
-  }
 }
 
 #contact-form textarea {
