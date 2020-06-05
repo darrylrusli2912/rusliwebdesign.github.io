@@ -1323,11 +1323,13 @@ label
 		transition: all 0.5s;
 	}
 	/*-----------------Contact----------------*/
-	p.formP input[type"text"], textarea{
+	p input[type=text], textarea{
 
 		width: 100%;
 
 	}
+	
+	
 
 	#contact-form fieldset
 	{
