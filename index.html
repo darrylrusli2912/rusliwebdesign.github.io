@@ -29,8 +29,22 @@
 			duration: 1200
 		});
 	</script>
-	<header id="header" class="clearfix">
-		
+	<div id="menu-popup" class="overlay">
+		<div class="popup">
+			<a class="close" href="#">&times;</a>
+			<div class="content">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<header id="header" class="clearfix">	
 		<div id="top-header"  class="clearfix">
 			<div class="wrapper">
 				<ul>
@@ -42,11 +56,12 @@
 		<div id="bottom-header" class="clearfix">
 			<div class="wrapper">
 				<div class="bottom-header-content">
-					<a id="logoLink" href="index.html">
+					<a id="logoLink" href="home.html">
 						<img id="logo" src="images/Rusli_Web_Design_logo_transparent_background.png" alt="logo">
 					</a>
 					<div id="menu-bar">
-						<button id="menu-toggle"><i class="fas fa-bars"></i></button>
+						<a class="button" href="#menu-popup"><i class="fas fa-bars"></i></a>
+
 					</div>
 					<nav id="menuDesktopNav">
 						<ul id="menuDesktopUl">
@@ -60,14 +75,7 @@
 
 
 
-				<nav id="menuNav">
-					<ul id="menuUl">
-						<li class="menuLi"><a class="menuA current" href="index.html">Home</a></li>
-						<li class="menuLi"><a class="menuA" href="about.html">About</a></li>
-						<li class="menuLi"><a class="menuA" href="portfolio.html">Portfolio</a></li>
-						<li class="menuLi"><a class="menuA" href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
+				
 			</div>
 		</div>
 	</header>
