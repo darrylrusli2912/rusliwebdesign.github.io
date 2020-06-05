@@ -29,6 +29,67 @@
 }
 
 /*
+* menu popup
+*/
+
+#bottom-header .bottom-header-content #menu-bar a.button  {
+	color: #fff;
+	font-size: 2em;
+}
+
+
+#menu-popup.overlay {
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	transition: opacity 500ms;
+	opacity: 0;
+}
+
+#menu-popup.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+#menu-popup.overlay .popup {
+	margin: 50px auto;
+	padding:20px;
+	background: #000;
+	width: 100%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+#menu-popup.overlay .popup a.close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size:30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+
+#menu-popup.overlay .popup .content {
+	overflow: auto;
+	text-align: center;
+}
+
+#menu-popup.overlay .popup .content nav ul li{
+	margin: 40px auto;
+}
+
+#menu-popup.overlay .popup .content nav ul li a{
+	font-size: 2em;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*
 *Other Styling
 */
 
